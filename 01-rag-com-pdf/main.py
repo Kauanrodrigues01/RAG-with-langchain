@@ -40,14 +40,14 @@ vector_store = Chroma.from_documents(
 
 retriever = vector_store.as_retriever()
 
-instructions = hub.pull('rlm/rag-prompt')
+prompt = hub.pull('rlm/rag-prompt')
 
 rag_chain = (
     {
         'context': retriever,
         'question': RunnablePassthrough(),  # Pede para o usuário inserir a pergunta
     }
-    | instructions
+    | prompt
     | llm
     | StrOutputParser()
 )
