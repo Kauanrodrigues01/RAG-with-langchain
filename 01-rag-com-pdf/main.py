@@ -18,7 +18,7 @@ llm = ChatOpenAI(
     max_tokens=1000,
 )
 
-pdf_path = Path(__file__).parent / 'laptop_manual.pdf'
+pdf_path = Path(__file__).parent.parent / 'data' / 'laptop_manual.pdf'
 
 pdf_loader = PyPDFLoader(file_path=pdf_path)
 

@@ -18,7 +18,7 @@ llm = ChatOpenAI(
     max_tokens=1000,
 )
 
-pdf_path = Path(__file__).parent / 'laptop_manual.pdf'
+pdf_path = Path(__file__).parent.parent / 'data' / 'laptop_manual.pdf'
 
 pdf_loader = PyPDFLoader(pdf_path)
 
@@ -49,6 +49,6 @@ rag_chain = (
     | StrOutputParser()
 )
 
-response = rag_chain.invoke('Qual a marca do notebook?')
+response = rag_chain.invoke('Como funciona o cancelamento de ruido inteligente?')
 
 print(response)
