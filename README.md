@@ -22,9 +22,7 @@ Este repositório contém experimentos e implementações que desenvolvi enquant
 * [Langchain](https://www.langchain.com/)
 * [OpenAI API](https://platform.openai.com/)
 * [ChromaDB](https://www.trychroma.com/) para armazenamento vetorial
-* [FAISS](https://faiss.ai/) (em alguns exemplos)
 * [Python](https://www.python.org/)
-* Pandas, PyPDF, dotenv, etc.
 
 ## ⚙️ Como Rodar os Exemplos
 
