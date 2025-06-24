@@ -4,17 +4,17 @@ Este repositório contém experimentos e implementações que desenvolvi enquant
 
 ## 📂 Estrutura do Repositório
 
-* **📁 rag-com-pdf/**
+* **📁 01-rag-com-pdf/**
   Exemplo de aplicação RAG utilizando arquivos **PDF** como fonte de dados.
   Utiliza loaders, text splitters e armazena os embeddings para consultas futuras.
 
-* **📁 persistindo-vector-store/**
+* **📁 02-persistindo-vector-store/**
   Demonstra como **persistir uma vector store** (base vetorial) para reutilização, economizando processamento e melhorando o tempo de resposta.
 
-* **📁 usando-vector-store-persistida/**
+* **📁 03-usando-vector-store-persistida/**
   Mostra como **carregar uma vector store já persistida** para realizar consultas com Langchain + LLM, sem reprocessar os dados.
 
-* **📁 rag-com-csv/**
+* **📁 04-rag-com-csv/**
   Projeto de RAG utilizando **dados estruturados em CSV** como fonte de conhecimento. Ideal para bases tabulares e análises específicas.
 
 ## 🛠️ Tecnologias Utilizadas
